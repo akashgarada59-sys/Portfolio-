@@ -464,3 +464,85 @@ nav ul li a.active{
 color:#3b82f6;
 font-weight:700;
 }
+/* ==========================
+   RESPONSIVE DESIGN
+========================== */
+
+@media (max-width: 992px){
+
+.hero{
+flex-direction:column-reverse;
+text-align:center;
+padding-top:150px;
+}
+
+.hero-text h1{
+font-size:45px;
+}
+
+.hero-text h2{
+font-size:24px;
+}
+
+.hero-image img{
+width:280px;
+height:280px;
+}
+
+.buttons{
+justify-content:center;
+flex-wrap:wrap;
+}
+
+nav{
+flex-direction:column;
+gap:15px;
+}
+
+nav ul{
+flex-wrap:wrap;
+justify-content:center;
+gap:18px;
+}
+
+.timeline,
+.skills{
+grid-template-columns:1fr;
+}
+
+}
+
+@media (max-width:576px){
+
+.logo{
+font-size:22px;
+}
+
+.hero-text h1{
+font-size:36px;
+}
+
+.hero-text p{
+font-size:16px;
+}
+
+.title{
+font-size:30px;
+}
+
+.btn,
+.btn2{
+width:100%;
+text-align:center;
+}
+
+.hero-image img{
+width:220px;
+height:220px;
+}
+
+section{
+padding:70px 20px;
+}
+
+}
